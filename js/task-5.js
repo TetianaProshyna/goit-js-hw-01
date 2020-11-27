@@ -1,24 +1,24 @@
 const country = prompt('Please enter delivery country');
 let deliveryPrice;
 let message;
-switch (country.toUpperCase()) {
-  case 'КИТАЙ':
+switch (country.toLowerCase()) {
+  case 'китай':
     deliveryPrice = '100';
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
-  case 'ЧИЛИ':
+  case 'чили':
     deliveryPrice = '250';
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
-  case 'АВСТРАЛИЯ':
+  case 'австралия':
     deliveryPrice = '170';
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
-  case 'ИНДИЯ':
+  case 'индия':
     deliveryPrice = '80';
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
-  case 'ЯМАЙКА':
+  case 'ямайка':
     deliveryPrice = '120';
     message = `Доставка в ${country} будет стоить ${deliveryPrice} кредитов`;
     break;
