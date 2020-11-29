@@ -4,8 +4,7 @@ let message;
 if (country === null) {
   message = 'Отменено пользователем!';
 } else {
-  country =
-    country.charAt(0).toLocaleUpperCase() + country.slice(1).toLowerCase();
+  country = country.charAt(0).toUpperCase() + country.slice(1).toLowerCase();
   switch (country) {
     case 'Китай':
       deliveryPrice = '100';
